@@ -1,0 +1,16 @@
+
+main_program
+    begin
+        element el = "elem";
+        set s = {el, el, el, el, el};
+        s.add(el);
+        s.remove(el);
+        s.remove(el);
+        set s2 = s;
+        print(s);
+        for (element e : s2)
+            begin
+                print(e);
+            end
+
+    end
